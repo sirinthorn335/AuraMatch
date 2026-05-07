@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:ai.google.dev)",
+      "Bash(npm create *)",
+      "Read(//d/tmp/**)",
+      "Bash(cp -r /tmp/auramatch/* /d/sirinthorn/)",
+      "Bash(cp /tmp/auramatch/.gitignore /d/sirinthorn/)",
+      "Bash(rm -rf /tmp/auramatch)",
+      "Bash(npm install *)",
+      "Bash(npx tsc *)",
+      "Bash(npx vite *)",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(curl -s http://localhost:5175)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173)",
+      "Bash(curl *)"
+    ]
+  }
+}
